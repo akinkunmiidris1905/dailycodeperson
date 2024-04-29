@@ -1,0 +1,18 @@
+#person{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: grey;
+    position: relative;
+    margin: 20px;
+}
+#person::after{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 40px;
+    background-color: grey;
+    top: 22px;
+    left: -10px;
+    border-radius: 50% 50% 0% 0%;
+}
